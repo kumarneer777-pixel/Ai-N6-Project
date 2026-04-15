@@ -7,12 +7,12 @@ app.get("/", (req, res) => {
   res.json({ message: "Gym Trainer API is running!" });
 });
 
-app.listen(3000, () => {
-  console.log("Server running on http://localhost:3000");
-});
-
 app.get("/workouts", (req, res) => {
   res.json({
     workouts: ["Chest Day", "Leg Day", "Cardio"]
   });
+});
+
+app.listen(3000, () => {
+  console.log("Server running on http://localhost:3000");
 });
