@@ -1,1 +1,1 @@
-# Ai-N6-Project
+# gym-trainer-api
